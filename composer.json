@@ -1,0 +1,23 @@
+{
+    "name": "octoth0rpe/jsonapi",
+    "description": "Utility classes for implementing json:api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "octoth0rpe",
+            "email": "mthorn.work@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"JsonAPI\\": "src/"}
+    },
+    "require": {
+      "php": ">=7.1.0",
+      "psr/http-message": "1.0.*"
+    },
+    "suggest": {
+      "j4mie/idiorm": "1.5.7"
+    }
+}
